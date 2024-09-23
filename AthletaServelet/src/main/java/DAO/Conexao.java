@@ -15,7 +15,7 @@ public class Conexao {
 //        INFORMANDO QUAL DRIVER DE CONEXÃO SERÁ UTILIZADO PELO DRIVER MANAGER
             Class.forName("org.postgresql.Driver");
 //        Criando a conexão com o BD
-            conn = DriverManager.getConnection(System.getenv("URL"), System.getenv("USER"), System.getenv("PASS"));
+            conn = DriverManager.getConnection("jdbc:postgresql://pg-3656fbb-germinatech.h.aivencloud.com:16820/Athleta","avnadmin", "AVNS_4cuOUV6Vmh5Jk7T9dJ6");
         }catch (java.sql.SQLException a){
             a.printStackTrace();
         }
