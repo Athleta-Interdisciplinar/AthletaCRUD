@@ -4,7 +4,7 @@ import java.sql.*;
 public class AdminDao {
     private PreparedStatement pstm;
     private ResultSet rset;
-    private Conexao conexao = new Conexao(); //Instanciando a classe Conexao
+    private Conexao conexao = new Conexao(); //Instanciando a classe Conexao.env
 
 //  METODO DE CADASTRO DE ADMINISTRADOR
     public int cadastrarAdm(int id_admin, String nome, String email, String senha){
