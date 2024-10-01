@@ -1,4 +1,4 @@
-import DAO.AdminDao;
+import dao.AdminDao;
 
 public class main {
     public static void main(String[] args) {

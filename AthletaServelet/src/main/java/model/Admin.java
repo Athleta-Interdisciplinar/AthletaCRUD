@@ -1,4 +1,4 @@
-package Classes;
+package model;
 
 public class Admin {
     private int id_admin;
