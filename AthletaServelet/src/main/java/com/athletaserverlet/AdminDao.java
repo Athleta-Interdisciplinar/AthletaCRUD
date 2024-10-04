@@ -5,13 +5,14 @@ import java.sql.*;
 public class AdminDao {
     private PreparedStatement pstm;
     private ResultSet rset;
-    private Conexao conexao = new Conexao(); //Instanciando a classe Conexao.env
+    private Conexao conexao = new Conexao(); //Instanciando a classe Conexao
 
 //  METODO DE CADASTRO DE ADMINISTRADOR
     public int cadastrarAdm(int id_admin, String nome, String email, String senha){
         try {
             conexao.conectar();//Abrindo conexao
-            pstm = conexao.getConn().prepareStatement("INSERT INTO ADM(ID, NOME, EMAIL, SENHA) VALUES(?, ?, ?, ?)");
+            Connection conexao1 = conexao.getConn();
+            pstm = conexao1.prepareStatement("INSERT INTO ADM(ID, NOME, EMAIL, SENHA) VALUES(?, ?, ?, ?)");
 
             pstm.setInt(1, id_admin);
             pstm.setString(2, nome);

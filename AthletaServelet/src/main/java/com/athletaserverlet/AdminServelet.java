@@ -7,6 +7,8 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import com.athletaserverlet.AdminDao;
+
 @WebServlet(name = "login", value = "/login")
 public class AdminServelet extends HttpServlet {
     @Override
@@ -16,14 +18,5 @@ public class AdminServelet extends HttpServlet {
 
             AdminDao adminDao = new AdminDao();
             adminDao.cadastrarAdm(2,"teste",email,senha);
-
-            response.setContentType("text/html");
-
-            PrintWriter out = response.getWriter();
-            out.println("<html><body>");
-            out.println("<h1>" + email + "</h1>");
-            out.println("<h1>" + senha + "</h1>");
-            out.println("</body></html>");
-
     }
 }
