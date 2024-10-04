@@ -1,4 +1,6 @@
-package DAO;
+package dao;
+
+import com.athletaserverlet.Conexao;
 
 import java.sql.Date;
 import java.sql.PreparedStatement;
