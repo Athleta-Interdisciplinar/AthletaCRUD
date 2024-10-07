@@ -1,7 +1,4 @@
-import com.athletaserverlet.AdminDao;
-import dao.AnaliseEventosDao;
-
-import java.time.LocalDate;
+import com.athletaserverlet.dao.AdminDao;
 
 public class main {
     public static void main(String[] args) {
