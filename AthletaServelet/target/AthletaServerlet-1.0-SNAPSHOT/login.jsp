@@ -11,7 +11,7 @@
     <div class="separar">
         <div class="imgem"></div>
         <content>
-            <form action="login">
+            <form action="login" method="post">
                 <a href="index.html" class="tit">
                     <h2 class="titulo">ATHLETA</h2>
                 </a><br>
@@ -21,7 +21,12 @@
                 </label><br>
                 <label for="senha">
                     <input type="password" name="senha" id="senha" placeholder="Senha:" required>
-                </label><br><br>
+                </label>
+                <% String erro = (String) request.getAttribute("erro"); %>
+                <c:if test="${not empty erro}">
+                    <div class="error">${erro}</div>
+                </c:if>
+                <br><br>
                 <input type="submit" value="Entrar" id="entrar">
             </form>
             <a href="index.html" class="back">Voltar</a>
