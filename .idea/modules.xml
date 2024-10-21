@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/appAthleta.iml" filepath="$PROJECT_DIR$/appAthleta.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/AthletaCRUD.iml" filepath="$PROJECT_DIR$/.idea/AthletaCRUD.iml" />
+>>>>>>> c9d5c2cd18a2a8a9abfea843e22dcd4d123a5d9e
     </modules>
   </component>
 </project>
