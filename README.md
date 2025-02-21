@@ -11,6 +11,7 @@ Java, JavaScript, HTML, e a linguagem de formatação CSS.
 O *PostgreSQL* é utilizado como o banco do **Athleta**.
  
 ### Framework 🛠️
+Utilizados pelo Segundo Ano:
 - React Vita;
 - Java Spring; 
 - Java Spring Security; 
