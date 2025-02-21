@@ -4,7 +4,7 @@ O **Athleta** é uma comunidade *on-line* que conecta pessoas por meio do conhce
 # Tecnologias usadas 👨‍💻
  
 ### Linguagens 🖥️
-O Athelta utilizou as seguintes linguagens de programação e marcação:
+O Athleta utilizou as seguintes linguagens de programação e marcação:
 Java, JavaScript, HTML, e a linguagem de formatação CSS.
  
 ### Banco de Dados 🗄️
