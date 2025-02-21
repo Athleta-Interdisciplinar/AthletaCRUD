@@ -34,3 +34,9 @@ cd AthletaCRUD
 <p>© 2024 Athleta. Todos os direitos reservados..</p>
 </div>
 </div>
+
+
+Autores:
+ Marcelo Paschoareli: https://github.com/MarceloPaschoareli
+ Isabela Neu: https://github.com/IsabellaNeu
+ Carlos Eduardo Perrud: https://github.com/CaduPerrudGerminare
